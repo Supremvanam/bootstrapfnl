@@ -30,6 +30,25 @@
          background-size: cover;
        }
 
+       #topRow {
+         margin-top: 100px;
+         text-align: center;
+
+       }
+
+       #topRow h1 {
+         font-size: 300%;
+
+       }
+
+       .bold {
+         font-weight: bold;
+       }
+
+       .paddingTop {
+         margin-top: 10px;
+       }
+
   </style>
   </head>
   <body>
@@ -76,8 +95,24 @@
 <!--End of Menu icon and Navigation bar  -->
 
     <div class="container" id="topContainer">
+      <div class="row">
+        <div id="topRow">
+          <h1>This is Suprem</h1>
+          <p class="lead">This is some text</p>
+          <p>This is somemore text</p>
+          <p class="bold">Interested? Join our mailing list</p>
 
+          <form>
+            <div class="input-group">
+              <span class="input-group-addon">@</span>
+              <input type="email" class="form-control" placeholder="Your email">
+                  </div>
+              <input type="submit" class="btn btn-success paddingTop" />
 
+          </form>
+
+        </div>
+      </div>
     </div>
     <!-- Main JS placed below to load pages faster  -->
 <!-- =========================================== -->
